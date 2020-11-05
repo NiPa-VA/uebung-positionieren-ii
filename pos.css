@@ -28,9 +28,10 @@ section {
   outline: 1px solid blue;
 }
 
-.conatiner {
+.container {
   width: 100%;
   height: 600px;
+  position: relative;
 }
 
 .element {
@@ -40,16 +41,31 @@ section {
 
 .electric-purple {
   background: #c200fb;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  z-index: 1;
 }
 
 .raspberry {
   background: #ec0868;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .ferrari-red {
   background: #fc2f00;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
 }
 
 .black {
   background: #000;
+  position: absolute;
+  top: 200px;
+  right: 150px;
+  z-index: 2;
 }
